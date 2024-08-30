@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeh Herne</title>
+    <link rel="icon" type="image/jpg" href="logopic.jpg">
+    <link rel="stylesheet" href="selfintro.css">
+    <script src="selfintro.js"></script>
+</head>
+
+<body>
+    <div class="first">
+        <div class="logo">
+        <img src="logopic.jpg" alt="Jeh Herne's Logo" id="logopic" onclick=location.reload()>
+        </div>
+        <div class="phone">
+            <img src="phone.png" alt="Phone">
+            <div class="subphone">
+                <p>Call Me</p>
+                <p>011-11888692</p>
+            </div>
+        </div>
+        <div class="email">
+            <img src="mail.svg" alt="Mail">
+            <div class="subemail">
+                <p>Email Me</p>
+                <p>yeohjehherne@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="second">
+        <div class="subsecond">
+            <a href='selfintro.html'>
+            <img src="home.png" alt="Home">
+            <p style="color:blue">Home</p>
+            </a>
+        </div>
+        <div class="subsecond">
+            <a href='aboutus.html'>
+            <img src="about.jpg" alt="About">
+            <p>About</p>
+            </a>    
+        </div>
+        <div class="subsecond">
+            <a href='achievements.html'>
+            <img src="achievement.png" alt="Achievement">
+            <p id="current">Achievements</p>
+            </a>
+        </div>
+    </div>
+    
+    <div class="aboutus">
+        <img src="coding.jpg" alt="Coding">
+        <div class="aboutustext">
+            <h1><span class="line">ABOU</span>T ME</h1>
+            <h2>I am <span class="autotype"></span></h2>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <script>
+            var typed=new Typed(".autotype",{
+            strings:["Yeoh Jeh Herne","17 Years Old","From Penang"],
+            typeSpeed:150,
+            backSpeed:150,
+            loop:true
+            })</script>
+         </div>
+    </div>
+    <div class="aboutus2">
+        <div class="subaboutu2">
+            <p> I recently graduated from my High School. In the Near Future, I will pursue my study for Diploma in Software Engineering.</p>
+            <p>Education</p>
+            <ul class="education">
+                <li>SJK(C)SinYa</li>
+                <li>SM Chung Ling Persendirian</li>
+            </ul>
+        </div>
+        <div class="subaboutus2">
+            <a href="graduatepic.jpg"><img src="graduatepic.jpg" alt="My Graduate Picture"></a>
+            <a href="aboutus.html" class="button" id="down">Learn More</a>
+        </div>
+    </div>
+
+    <div class="myachievements">
+        <img src="achievements.jpeg" alt="Achievements">
+        <div class="myachievementstext">
+            <h1><span class="line">MY ACHIEVEM</span>ENTS</h1>
+            <ul class="achieve">
+                <li>Google Cybersecurity</li>
+                <li>University of Michigan Python For Everyone</li>
+                <li>Google IT Support</li>
+            </ul>
+            <a href="achievements.html" class="button">Learn More</a>
+        </div>      
+    </div>
+    
+    <div class="form">
+        <h1><span class="line">Conta</span>ct Me</h1>
+        <form action="https://formsubmit.co/yeohjehherne@gmail.com" method="POST">
+            <div class="formed">
+            <input  id="subform1" class="subform" type="text" name="name" required placeholder="Name">
+            <input  class="subform" type="email" name="email" required placeholder="Email">
+            <input  class="subform" type="text" name="subject" required placeholder="Subject">
+            <textarea  class="subform" name="msg" required placeholder="Message"></textarea>
+            <button  class="subform" type="submit">Submit</button>
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+    </div>
+
+    <div class="ending">
+        <div class="logo">
+            <img src="logopic.jpg" alt="Logo" onclick="location.reload()">
+        </div>
+        <div class="getintouch">
+            <p>Get In Touch</p>
+            <ul>
+                <li class="map">Malaysia</li>
+                <li class="phones">011-11888692</li>
+                <li class="mails">yeohjehherne@gmail.com</li>
+            </ul>
+        </div>
+        <div class="popularlinks">
+        <p>Popular Links</p>
+        <ul>
+            <li class="arrow" style="color:blue"><a href="selfintro.html">Home</a></li>
+            <li class="arrow"><a href="aboutus.html">About</a></li>
+            <li class="arrow"><a href="achievements.html">Achievements</a></li>
+        </ul>
+        </div>     
+    </div>
+    <br>
+    <div class="dottedline"></div>
+    <p class="copyright">All Rights Reserved.Developed By Yeoh Jeh Herne 2024</p>
+</body>
+
+</html>
